@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+  background: #000000;
+}
+
+.carrinho-vazio {
+  text-align: center;
+  background: #191919;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 50%;
+}
+
+.carrinho-vazio .icone {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.carrinho-vazio h2 {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.carrinho-vazio p {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+.btn-comprar {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background .2s;
+}
+
+.btn-comprar:hover {
+  background: #ff0000;
+}

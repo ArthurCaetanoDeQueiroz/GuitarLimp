@@ -6,6 +6,7 @@
     <title>Guitar Limp</title>
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="categoria.css">
+    <link rel="stylesheet" href="busca.css">
 </head>
 <body>
     <header id="troçocima">
@@ -47,7 +48,7 @@
                         <li><a href="todos.html">Palhetas</a></li>
                         <li><a href="todos.html">Capotrastes</a></li>
                         <li><a href="todos.html">Afinadores</a></li>
-                        <li><a href="todos.html">Pedais e Efeitos</a></li>
+                        <li><a href="todos.html">Pedais e Ef'eitos</a></li>
                     </ul>
                 </div>
                 
@@ -67,13 +68,13 @@
                 <a href="quemsomos.html" class="linksdotrem">Quem Somos</a>
             </div>
             <div class="linkclasse">
-                <a href="contatos.html" class="linksdotrem" id="select">Contato</a>
+                <a href="contatos.html" class="linksdotrem">Contato</a>
             </div>
             <div class="linkclasse">
                 <a href="todos.html" class="linksdotrem">Todos</a>
             </div>
             <div class="linkclasse">
-                <a href="busca.html" class="linksdotrem">🔍︎</a>
+                <a href="busca.html" class="linksdotrem" id="select">🔍︎</a>
             </div>
             <div class="linkclasse">
                 <a href="carrinho.html" class="linksdotrem">Carrinho</a>
@@ -85,89 +86,12 @@
     </header>
 
     <main>
-        <section class="contact-hero">
-            <div class="container">
-                <h2>Entre em Contato</h2>
-                <p>Estamos aqui para ajudar com todas as suas dúvidas sobre guitarras, equipamentos e acessórios.</p>
-            </div>
-        </section>
-
-        <section class="contact-content">
-            <div class="container">
-                <div class="contact-info">
-                    <h3>Informações de Contato</h3>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Telefone</h4>
-                            <p>(69) 420-6969</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-whatsapp"></i>
-                        <div>
-                            <h4>WhatsApp</h4>
-                            <p>(67) 666-420</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>contato@guitarlimp.com.br</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Endereço</h4>
-                            <p>Av. Paula Tejando, 666 - Centro<br>Casa do Chapéu - MG, CEP: 42069-666</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h4>Horário de Atendimento</h4>
-                            <p>Segunda a Sexta: 07:30 às 20:00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="contact-form">
-                    <h3>Envie sua Mensagem</h3>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Nome Completo</label>
-                            <input type="text" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Telefone</label>
-                            <input type="tel" id="phone">
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Assunto</label>
-                            <select id="subject" required>
-                                <option value="">Selecione um assunto</option>
-                                <option value="duvida">Dúvida sobre produto</option>
-                                <option value="orcamento">Orçamento</option>
-                                <option value="reclamacao">Reclamação</option>
-                                <option value="elogio">Elogio</option>
-                                <option value="outro">Outro</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Mensagem</label>
-                            <textarea id="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit">Enviar Mensagem</button>
-                    </form>
-                </div>
-            </div>
-        </section>
+    <section class="erro-pesquisa">
+      <div class="icone">🔍</div>
+      <h2>Nenhum produto encontrado</h2>
+      <p>Tente usar outras palavras-chave ou confira a ortografia.</p>
+      <a href="index.html" class="btn-voltar">Voltar para a loja</a>
+    </section>
     </main>
 
     <footer class="site-footer">

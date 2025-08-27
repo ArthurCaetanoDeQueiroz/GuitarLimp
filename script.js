@@ -23,3 +23,15 @@ nextBtn.addEventListener('click', () => showSlide(currentIndex + 1));
 dots.forEach((dot, i) => {
     dot.addEventListener('click', () => showSlide(i));
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('.select-btn[data-redirect]');
+    
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            const redirectUrl = this.getAttribute('data-redirect');
+            window.location.href = redirectUrl;
+        });
+    });
+});
+

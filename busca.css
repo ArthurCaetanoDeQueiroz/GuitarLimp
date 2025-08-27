@@ -1,0 +1,47 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: #000000;
+}
+
+.erro-pesquisa {
+  text-align: center;
+  background: #262525;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.erro-pesquisa .icone {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.erro-pesquisa h2 {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.erro-pesquisa p {
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.btn-voltar {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #ab0c0c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background .2s;
+}
+
+.btn-voltar:hover {
+  background: #ff0000;
+}
